@@ -2,14 +2,15 @@ import { createReducer } from "@reduxjs/toolkit";
 
 import { addBook, deleteBook } from "./actions-book";
 
-const bookInitialState = [];
 
-const booksReducer = createReducer(bookInitialState, {
-    [addBook]: (state, action) => {
-        state.push(action.payload);
-    },
-    [deleteBook]: (state, action) => {
-        return state.filter(task => task.id !== action.payload);
-    },
+
+const booksReducer = createReducer([], builder => {
+    builder.addCase(addBook, (state, { payload }) => {
+        state.push(payload)
+    })
+    .addCase(deleteBook, (state, { payload }) => {
+        return state.filter(item => item.id !== payload)
+    })
+    
 })
 export default booksReducer;
