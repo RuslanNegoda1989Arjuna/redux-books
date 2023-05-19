@@ -1,4 +1,4 @@
-export const getBook = store => store.books;
+export const getBooks = store => store.books;
 
 export const getFavoriteBooks = store => {
     return store.books.filter(({ favorite }) => favorite);

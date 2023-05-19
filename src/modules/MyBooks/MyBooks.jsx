@@ -4,8 +4,11 @@ import MyBooksBlock from "./MyBooksBlock/MyBooksBlock";
 import MyBooksList from "./MyBooksList/MyBooksList";
 import MyBooksForm from "./MyBooksForm/MyBooksForm";
 
-import { addBook, deleteBook, setFilter } from "../../redux/actions";
-import { getBooks, getFilteredBooks, getFilter } from "../../redux/selectors";
+import { addBook, deleteBook } from "../../redux/books/actions-book";
+import { setFilter } from "../../redux/filter/actions-filter";
+
+import { getBooks, getFilteredBooks } from "../../redux/books/selectors-book";
+import { getFilter } from "../../redux/filter/selector-filter";
 
 import styles from "./my-books.module.scss";
 

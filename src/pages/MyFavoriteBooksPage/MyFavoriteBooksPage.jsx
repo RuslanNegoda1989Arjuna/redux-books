@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 
-import { getFavoriteBooks } from "../../redux/selectors";
+import { getFavoriteBooks } from "../../redux/books/selectors-book";
 
 const MyFavoriteBooksPage = () => {
     const favoriteBooks = useSelector(getFavoriteBooks);
