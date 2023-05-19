@@ -1,7 +1,13 @@
-import {createStore} from "redux";
+import { configureStore } from "@reduxjs/toolkit";
 
-import reducer from "./reducer";
+import booksReducer from "./books/reducer-book";
+import filterReducer from "./filter/reducer-filter";
 
-const store = createStore(reducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+const store = configureStore({
+    reducer: {
+        books: booksReducer,
+        filter: filterReducer
+    }
+})
 
 export default store;
