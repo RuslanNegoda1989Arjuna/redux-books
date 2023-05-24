@@ -4,7 +4,7 @@ import MyBooksBlock from "./MyBooksBlock/MyBooksBlock";
 import MyBooksList from "./MyBooksList/MyBooksList";
 import MyBooksForm from "./MyBooksForm/MyBooksForm";
 
-import { addBook, deleteBook } from "../../redux/books/actions-book";
+import { addBook, deleteBook } from "../../redux/books/books-slice";
 import { setFilter } from "../../redux/filter/actions-filter";
 
 import { getBooks, getFilteredBooks } from "../../redux/books/selectors-book";
