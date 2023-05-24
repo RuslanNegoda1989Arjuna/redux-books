@@ -5,7 +5,7 @@ import MyBooksList from "./MyBooksList/MyBooksList";
 import MyBooksForm from "./MyBooksForm/MyBooksForm";
 
 import { addBook, deleteBook } from "../../redux/books/books-slice";
-import { setFilter } from "../../redux/filter/actions-filter";
+import { setFilter } from "../../redux/filter/filter-slice";
 
 import { getBooks, getFilteredBooks } from "../../redux/books/selectors-book";
 import { getFilter } from "../../redux/filter/selector-filter";
