@@ -20,7 +20,7 @@ const CommentsPage = () => {
         }
 
         fetchComments();
-    }, [])
+    }, [id])
 
     const elements = comments.map(({id, name, body}) => (
         <li key={id}>

@@ -1,6 +1,6 @@
 import PostsSearch from "../../modules/PostsSearch/PostsSearch";
 
-import styles from "./posts-page.module.scss";
+// import styles from "./posts-page.module.scss";
 
 const PostsPage = () => {
     return (

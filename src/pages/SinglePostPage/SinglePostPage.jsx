@@ -3,7 +3,7 @@ import { Link, Outlet, useParams, useNavigate, useLocation } from "react-router-
 
 import { getPostById } from "../../shared/api/posts";
 
-import styles from "./single-post-page.module.scss";
+// import styles from "./single-post-page.module.scss";
 
 const SinglePostPage = () => {
     const [post, setPost] = useState({});
