@@ -1,13 +1,28 @@
 import { configureStore } from "@reduxjs/toolkit";
 
-import booksReducer from "./books/books-slice";
-import filterReducer from "./filter/filter-slice";
+import rootReducer from "./root-reducer";
+import { persistStore, persistReducer, FLUSH,
+  REHYDRATE,
+  PAUSE,
+  PERSIST,
+  PURGE,
+  REGISTER, } from 'redux-persist';
+import storage from 'redux-persist/lib/storage';
 
-const store = configureStore({
-    reducer: {
-        books: booksReducer,
-        filter: filterReducer
-    }
+const persistConfig = {
+  key: 'books',
+    storage,
+  blacklist: ['filter']
+}
+const persistedReducer = persistReducer(persistConfig, rootReducer)
+
+export const store = configureStore({
+    reducer: persistedReducer,
+    middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware({
+      serializableCheck: {
+        ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
+      },
+    }),
 })
-
-export default store;
+export const persistor = persistStore(store)
