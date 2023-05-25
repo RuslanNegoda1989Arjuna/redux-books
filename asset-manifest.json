@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/redux-books/static/css/main.467ec3bd.css",
+    "main.js": "/redux-books/static/js/main.f9fce81b.js",
+    "static/css/917.b2bcad15.chunk.css": "/redux-books/static/css/917.b2bcad15.chunk.css",
+    "static/js/917.2f675514.chunk.js": "/redux-books/static/js/917.2f675514.chunk.js",
+    "static/css/834.b65a9dd7.chunk.css": "/redux-books/static/css/834.b65a9dd7.chunk.css",
+    "static/js/834.ea9a1ed2.chunk.js": "/redux-books/static/js/834.ea9a1ed2.chunk.js",
+    "static/js/26.9ae24868.chunk.js": "/redux-books/static/js/26.9ae24868.chunk.js",
+    "static/js/869.21fd4fc4.chunk.js": "/redux-books/static/js/869.21fd4fc4.chunk.js",
+    "static/js/333.cc5851ee.chunk.js": "/redux-books/static/js/333.cc5851ee.chunk.js",
+    "static/css/308.95078cf2.chunk.css": "/redux-books/static/css/308.95078cf2.chunk.css",
+    "static/js/308.baf85a67.chunk.js": "/redux-books/static/js/308.baf85a67.chunk.js",
+    "static/js/87.d2c40ea2.chunk.js": "/redux-books/static/js/87.d2c40ea2.chunk.js",
+    "static/js/794.4fa605ce.chunk.js": "/redux-books/static/js/794.4fa605ce.chunk.js",
+    "static/js/384.7ba88935.chunk.js": "/redux-books/static/js/384.7ba88935.chunk.js",
+    "index.html": "/redux-books/index.html",
+    "main.467ec3bd.css.map": "/redux-books/static/css/main.467ec3bd.css.map",
+    "main.f9fce81b.js.map": "/redux-books/static/js/main.f9fce81b.js.map",
+    "917.b2bcad15.chunk.css.map": "/redux-books/static/css/917.b2bcad15.chunk.css.map",
+    "917.2f675514.chunk.js.map": "/redux-books/static/js/917.2f675514.chunk.js.map",
+    "834.b65a9dd7.chunk.css.map": "/redux-books/static/css/834.b65a9dd7.chunk.css.map",
+    "834.ea9a1ed2.chunk.js.map": "/redux-books/static/js/834.ea9a1ed2.chunk.js.map",
+    "26.9ae24868.chunk.js.map": "/redux-books/static/js/26.9ae24868.chunk.js.map",
+    "869.21fd4fc4.chunk.js.map": "/redux-books/static/js/869.21fd4fc4.chunk.js.map",
+    "333.cc5851ee.chunk.js.map": "/redux-books/static/js/333.cc5851ee.chunk.js.map",
+    "308.95078cf2.chunk.css.map": "/redux-books/static/css/308.95078cf2.chunk.css.map",
+    "308.baf85a67.chunk.js.map": "/redux-books/static/js/308.baf85a67.chunk.js.map",
+    "87.d2c40ea2.chunk.js.map": "/redux-books/static/js/87.d2c40ea2.chunk.js.map",
+    "794.4fa605ce.chunk.js.map": "/redux-books/static/js/794.4fa605ce.chunk.js.map",
+    "384.7ba88935.chunk.js.map": "/redux-books/static/js/384.7ba88935.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.467ec3bd.css",
+    "static/js/main.f9fce81b.js"
+  ]
+}
